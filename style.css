@@ -1,0 +1,298 @@
+/* ################## default ##################### */
+
+html {
+    font-size: 62.5%;
+}
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+/* ############## social ################ */
+
+div.social {
+    background-image: linear-gradient(to right top,#4568DC, #B06AB3);
+    padding: 2rem 0 2rem 2rem;
+    min-height: 100vh;
+    max-height: 100%;
+}
+
+div.social h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+ul.social-icon-title {
+    margin-top: 3rem;
+    list-style: none;
+    color: #fff;
+}
+
+ul.social-icon-title li{
+    margin-top: 1rem;
+}
+
+ul.social-icon-title a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul.social-icon-title li i {
+    font-size: 2rem;
+    margin: 1rem 1rem 1rem 0;
+    cursor: pointer;
+}
+
+ul.social-icon-title li span {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/* ############# login and signin btn ############# */
+
+div.login-signin-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 5rem;
+}
+
+div.login-signin-btn div.btn-log{
+    color: #fff;
+    padding: 2rem 5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+div.login-signin-btn div.active {
+    background-color: #fff;
+    border-radius: 2rem 0 0 2rem;
+    color: #7887F3;
+}
+
+/* ################ login form ############# */
+
+div.login-cont {
+    margin: auto;
+    width: 40rem;
+}
+
+form.login-form {
+    text-align: center;
+    margin: 15rem auto;
+    padding: 2rem;
+    width: 100%;
+}
+
+div.main h1 {
+    background: -webkit-linear-gradient(#7F7FD5, #86A8E7, #91EAE4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5rem;
+}
+
+div.form-group{
+    margin-top: 2rem;
+}
+
+div.form-group input{
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: .1rem solid #a7a7a7;
+}
+
+p.error {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #FF004D;
+}
+
+form.login-form button.sub-btn {
+    width: 100%;
+    padding: 1.1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #7887F3;
+    border: none;
+    margin-top: 2rem;
+    
+}
+
+form.login-form button.sub-btn:hover {
+    background-color: rgb(86, 96, 172);
+}
+
+/* ###### lines and circle under the form ##### */
+
+div.line-row {
+    margin: 3rem auto;
+}
+
+div.line {
+    width: 100%;
+    margin-top: .6rem;
+    border-top: 1px solid #a0a0a0;
+    padding-top: 1rem;
+}
+
+div.line a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(53, 129, 228);
+}
+
+
+
+
+/* ############################# create signup form ############################ */
+
+/* ################ signUp form ############# */
+
+div.login-cont {
+    margin: auto;
+}
+
+form.signup-form {
+    text-align: center;
+    margin: 15rem auto;
+    padding: 2rem;
+    width: 100%;
+    display: none;
+}
+
+div.main h1 {
+    background: -webkit-linear-gradient(#7F7FD5, #86A8E7, #91EAE4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5rem;
+}
+
+div.form-group{
+    margin-top: 2rem;
+}
+
+div.form-group input{
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: .1rem solid #a7a7a7;
+}
+
+form.signup-form button.sub-btn {
+    width: 100%;
+    padding: 1.1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #7887F3;
+    border: none;
+    margin-top: 2rem;
+    
+}
+
+form.signup-form button.sub-btn:hover {
+    background-color: rgb(86, 96, 172);
+}
+
+/* ###### lines and circle under the form ##### */
+
+div.line-row {
+    margin: 3rem auto;
+}
+
+div.line {
+    width: 100%;
+    margin-top: .6rem;
+    border-top: 1px solid #a0a0a0;
+    padding-top: 1rem;
+}
+
+div.line a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(53, 129, 228);
+}
+
+
+
+
+@media all and (max-width: 768px) { 
+
+
+}
+
+@media (max-width: 576px) { 
+
+    div.social {
+        padding: 0;
+    }
+
+    div.social h2{
+        display: none;
+    }
+
+    ul.social-icon-title {
+        text-align: center;
+    }
+
+    ul.social-icon-title li span{
+        display: none;
+    }
+
+    ul.social-icon-title li i {
+        margin:2rem 1rem auto;
+        font-size: 3rem ;
+    }
+
+    div.login-signin-btn div.btn-log{
+        padding: 1.3rem 1rem;
+        font-size: 1.3rem;
+    }
+
+    div.login-signin-btn div.active {
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    div.main {
+        padding: 0;
+    }
+
+    form.login-form {
+        margin: 9rem auto;
+    }
+
+    div.main div.main-cont {
+        padding: 0;
+    }
+
+    div.main-cont div.login-cont{
+        padding: 0;
+    }
+
+}
+
+/* ######################  animation ######################## */
+
+@keyframes showForm{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

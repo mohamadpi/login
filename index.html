@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6583edbadb.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>login portal</title>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2 col-md-4 col-sm-4 col-xl-4 social">
+          <h2>follow</h2>
+          <ul class="social-icon-title">
+            <li>
+              <a href="https://github.com/mohamadpi" target="_blank">
+                <i class="fab fa-github"> </i>
+                <span>github</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/mohamad.pirasteh" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <span>instagram</span> 
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/mohamadpirasteh" target="_blank">
+                <i class="fab fa-twitter"></i>
+                <span>twitter</span>
+              </a>
+            </li>
+          </ul>
+          <div class="login-signin-btn">
+            <div class="btn-log active" id="login-btn">Login</div>
+            <div class="btn-log" id="signup-btn">SignUp</div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-8 col-md-8 col-xl-8 main">
+          <div class="container-fluid main-cont">
+            <div class="col-12 col-sm-12 login-cont">
+
+              <form class="login-form" id="login-form">
+                <h1>ZEIT</h1>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="email or username" id="login-email">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="password" id="login-password">
+                </div>
+                <p class="error" id="login-error"></p>
+                <button type="button" class="btn btn-primary btn-lg sub-btn" id="login-sub">Get Started</button>
+                <div class="row line-row">
+                  <div class="col-5 line"><a href="#">Facebook</a></div>
+                  <div class="col-2 circle">&#9898</div>
+                  <div class="col-5 line"><a href="#">Google+</a></div>
+                </div>
+              </form>
+
+              <form class="signup-form" id="signup-form">
+                <h1>ZEIT</h1>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="username" id="signup-username">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="email" id="signup-email">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="password" id="signup-password">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="verify password" id="signup-vpassword">
+                </div>
+                <p class="error" id="signup-error"></p>
+                <button type="button" class="btn btn-primary btn-lg sub-btn" id="signup-sub" >Get Started</button>
+
+
+                <div class="row line-row">
+                  <div class="col-5 line"><a href="#">Facebook</a></div>
+                  <div class="col-2 circle">&#9898</div>
+                  <div class="col-5 line"><a href="#">Google+</a></div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
