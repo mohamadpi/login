@@ -273,7 +273,10 @@ div.line a {
     }
 
     form.login-form {
-        margin: 9rem auto;
+        margin: 5rem auto;
+    }
+    form.signup-form {
+        margin: 5rem auto;
     }
 
     div.main div.main-cont {
