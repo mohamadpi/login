@@ -18,6 +18,7 @@ signup_btn.addEventListener("click", function(){
     login_form.style.display = "none";
     signup_form.style.display = "block";
     signup_form.style.animation = "ease-out 1s showForm"
+    
 })
 
 var login_sub = document.getElementById("login-sub");
