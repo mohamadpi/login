@@ -88,4 +88,4 @@ signup_sub.addEventListener("click", function(){
     
 })
 
-var a = 20
+var a = 10
