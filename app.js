@@ -87,3 +87,5 @@ signup_sub.addEventListener("click", function(){
     }
     
 })
+
+var a = 20
