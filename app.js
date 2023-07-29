@@ -1,4 +1,4 @@
-var login_btn = document.getElementById("login-btn");
+var login_btn = document.getElementById("login-btn") ;
 var signup_btn = document.getElementById("signup-btn");
 
 var login_form = document.getElementById("login-form");
